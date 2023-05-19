@@ -5,8 +5,8 @@ This project aims to build, test, and select a Natural Language Processing model
 This repository consists of several files, namely :
 
 - Folder deployment = Contains files used for deployment to HuggingFace (contains models, python applications etc.)
-- Sentiment Analysis of Amazon Customer Reviews.ipynb = This file is the main notebook used to explore dataset and built model
-- model inference.ipynb= Notebook used for testing inference. Inferencing is done on a separate notebook to prove that the model can run on a notebook that is clean of variables
+- Notebook_Sentiment_Analysis_of_Amazon_Customer_Reviews.ipynb = This file is the main notebook used to explore dataset and built model
+- model_inference_Sentiment_Analysis_of_Amazon_Customer_Reviews.ipynb = Notebook used for testing inference. Inferencing is done on a separate notebook to prove that the model can run on a notebook that is clean of variables
 - url.txt = Deployment URL to HuggingFace
 
 # Brief Summary of Project
