@@ -105,7 +105,7 @@ def run():
   df_inf_transform = t.texts_to_sequences(df_inf_transform)
   # Padding the dataset to a maximum review length in words
 
-  df_inf_transform = pad_sequences(df_inf_transform, maxlen=106)
+  df_inf_transform = pad_sequences(df_inf_transform, maxlen=102)
 
 
   if submitted:

@@ -35,7 +35,7 @@ def run():
     st.write('Dataset used is amazon review dataset from [kaggle]("https://www.kaggle.com/datasets/yacharki/amazon-reviews-for-sa-binary-negative-positive-csv").')
 
     # show dataframe
-    df2 = pd.read_csv('dataset_50000_rows.csv')
+    df2 = pd.read_csv('dataset_20000_rows.csv')
     df2 = df2.drop(['Unnamed: 0'],axis=1)
     st.dataframe(df2)
     # add description of Dataset
