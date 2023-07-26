@@ -4,10 +4,11 @@ This project aims to build, test, and select a Natural Language Processing model
 # File Explanation on Github
 This repository consists of several files, namely :
 
-- Folder deployment = Contains files used for deployment to HuggingFace (contains models, python applications etc.)
-- Notebook_Sentiment_Analysis_of_Amazon_Customer_Reviews.ipynb = This file is the main notebook used to explore dataset and built model
-- model_inference_Sentiment_Analysis_of_Amazon_Customer_Reviews.ipynb = Notebook used for testing inference. Inferencing is done on a separate notebook to prove that the model can run on a notebook that is clean of variables
-- url.txt = Deployment URL to HuggingFace
+- **Folder deployment** = Contains files used for deployment to HuggingFace (contains models, python applications etc.)
+- **Notebook_Sentiment_Analysis_of_Amazon_Customer_Reviews.ipynb** = This file is the main notebook used to explore dataset and built model
+- **model_inference_Sentiment_Analysis_of_Amazon_Customer_Reviews.ipynb** = Notebook used for testing inference. Inferencing is done on a separate notebook to prove that the model can run on a notebook that is clean of variables
+- **model_inference_Sentiment_Analysis.csv** = Dataset used for model inference
+-  [**Deployment URL to HuggingFace**](https://huggingface.co/spaces/ahmadluay/Amazon_Customer_Reviews)
 
 # Brief Summary of Project
 The flow of this project, first EDA (Exploratory Data Analysis) to find out the basic picture of the dataset. Second, cleaning and preprocessing of the dataset. Third, Built 4 Model (LSTM, Improved LSTM, GRU, Improved GRU) and choose LSTM Improvement as Best Model. Result of the model using Deep Learning with own architecture shows 80% Accuracy on test-set
